@@ -1,0 +1,95 @@
+---
+layout: default
+permalink: /work/
+
+# SEO
+title: Home
+description: Home description
+image: /img/global/1200x1200.png
+author: Joshua McSorley
+categories: Home
+
+
+
+
+works:
+  - image: https://via.placeholder.com/350x350
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    class: graphic-design
+    desc: Design &amp; Development
+  - image: https://via.placeholder.com/350x350
+    title: Look at me
+    link_to: portfolio-item.html
+    class: web-design print
+    desc: Design &amp; Development
+  - image: https://via.placeholder.com/350x350
+    title: Am I cute
+    link_to: portfolio-item.html
+    class: brand
+    desc: Design &amp; Development
+  - image: https://via.placeholder.com/350x350
+    title: Umbrella
+    link_to: portfolio-item.html
+    class: development
+    desc: Design &amp; Development
+  - image: https://via.placeholder.com/350x350
+    title: Canned Bros
+    link_to: portfolio-item.html
+    class: print brand
+    desc: Design &amp; Development
+  - image: https://via.placeholder.com/350x350
+    title: Hale
+    link_to: portfolio-item.html
+    class: web-design
+    desc: Design &amp; Development
+  - image: https://via.placeholder.com/350x350
+    title: A beautiful day
+    link_to: portfolio-item.html
+    class: web-design
+    desc: Design &amp; Development
+  - image: https://via.placeholder.com/350x350
+    title: Flower Book
+    link_to: portfolio-item.html
+    class: graphic-design
+    desc: Design &amp; Development
+---
+<div class='mod modGallery'>
+  <div class='gallery-nav'>
+    <ul>
+      <li class='current'>
+        <a data-cat='all' href='#'>All</a>
+      </li>
+      <li>
+        <a data-cat='graphic-design' href='#'>Graphic Design</a>
+      </li>
+      <li>
+        <a data-cat='web-design' href='#'>Web Design</a>
+      </li>
+      <li>
+        <a data-cat='brand' href='#'>Brand</a>
+      </li>
+      <li>
+        <a data-cat='development' href='#'>Development</a>
+      </li>
+      <li>
+        <a data-cat='print' href='#'>Print</a>
+      </li>
+    </ul>
+  </div>
+  <ul class='col-lg-4 col-md-3'>
+    {% for work in page.works %}
+      <li class='{{work.class}}'>
+        <a href='{{work.link_to}}'>
+          <img alt="" src="{{work.image}}" />
+          <div class='overlay'>
+            <div class='thumb-info'>
+              <h3>{{work.title}}</h3>
+              <p>{{work.desc}}</p>
+            </div>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
