@@ -5,8 +5,11 @@ exclude:
   - LICENSE.md
   # - elements.html
 
-sass:
-  style: compressed
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+
 
 # ------------------------------
 
