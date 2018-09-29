@@ -9,24 +9,6 @@
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/src/aos/aos.css" >
 
-  <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Search | default title</title>
-<meta name="generator" content="Jekyll v3.6.2" />
-<meta property="og:title" content="Search" />
-<meta name="author" content="default author" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Home description" />
-<meta property="og:description" content="Home description" />
-<link rel="canonical" href="http://localhost:4000/search/" />
-<meta property="og:url" content="http://localhost:4000/search/" />
-<meta property="og:site_name" content="default title" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@" />
-<meta name="twitter:creator" content="@default author" />
-<script type="application/ld+json">
-{"description":"Home description","author":{"@type":"Person","name":"default author"},"@type":"WebPage","url":"http://localhost:4000/search/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/img/global/1200x1200.png"},"name":"default author"},"headline":"Search","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -143,22 +125,6 @@
        "category": "",
        "content": "// Dropdown on hover.dropdown:hover > .dropdown-menu {  display: block;}// Sticky footer styles DO NOT EDIThtml {  position: relative;  min-height: 100%;}body {  margin-bottom: 100px !important;}.footer {  position: absolute;  bottom: 0;  width: 100%;  height: 60px;  line-height: 60px;}// Your variable overrides$theme-colors: (  \"primary\":    #007bff,  \"secondary\":  #6c757d,  \"success\":    #28a745,  \"info\":       #17a2b8,  \"warning\":    #ffc107,  \"danger\":     #dc3545,  \"light\":      #f8f9fa,  \"dark\":       #343a40);// Bootstrap and its default variables@import \"bootstrap\";",
        "url": "/css/style.css"
-    },
-   
-     "sitemap-xml": {
-       "title": "",
-       "author": "",
-       "category": "",
-       "content": "{% if page.xsl %}{% endif %}{% assign collections = site.collections | where_exp:'collection','collection.output != false' %}{% for collection in collections %}{% assign docs = collection.docs | where_exp:'doc','doc.sitemap != false' %}{% for doc in docs %}{{ doc.url | replace:'/index.html','/' | absolute_url | xml_escape }}{% if doc.last_modified_at or doc.date %}{{ doc.last_modified_at | default: doc.date | date_to_xmlschema }}{% endif %}{% endfor %}{% endfor %}{% assign pages = site.html_pages | where_exp:'doc','doc.sitemap != false' | where_exp:'doc','doc.url != \"/404.html\"' %}{% for page in pages %}{{ page.url | replace:'/index.html','/' | absolute_url | xml_escape }}{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% endif %}{% endfor %}{% assign static_files = page.static_files | where_exp:'page','page.name != \"404.html\"' %}{% for file in static_files %}{{ file.path | absolute_url | xml_escape }}{{ file.modified_time | date_to_xmlschema }}{% endfor %}",
-       "url": "/sitemap.xml"
-    },
-   
-     "robots-txt": {
-       "title": "",
-       "author": "",
-       "category": "",
-       "content": "Sitemap: {{ \"sitemap.xml\" | absolute_url }}",
-       "url": "/robots.txt"
     },
    
    

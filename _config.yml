@@ -29,11 +29,11 @@ defaults:
 
 # SEO PLUGIN SETTINGS
 # url: default.url.com
-logo: /img/global/1200x1200.png
-image: /img/global/1200x1200.png
-title: default title
-description: default description
-author: default author
+logo:
+image:
+title:
+description:
+author:
 # categories: default categories
 # social:
 #   name: John Doe
