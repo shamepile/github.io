@@ -6,14 +6,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- CSS -->
+<link rel="stylesheet" href="/css/gradients.css">
 <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/src/animateCSS/animate.min.css">
 <link rel="stylesheet" href="/src/aos/aos.css" >
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="/">Navbar</a>
+<body class="bg-dark text-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container" data-aos="fade-down">
+    <img src="/img/global/logo.png" alt="" style="max-height:40px; max-width:auto;">
+    <a class="navbar-brand pl-3" href="/">The Shame Pile</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -21,12 +28,15 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item ">
-          <a class="nav-link" href="/features">Features</a>
+          <a class="nav-link" href="/videos">Videos</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="/podcast">Podcast</a>
         </li>
         <li class="nav-item ">
           <a class="nav-link" href="/blog">Blog</a>
         </li>
-        <li class="nav-item dropdown ">
+        <!-- <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Resources
           </a>
@@ -36,79 +46,55 @@
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
-        </li>
+        </li> -->
       </ul>
 
-      <form class="form-inline my-0" action="/search" method="get">
+      <!-- <form class="form-inline my-0" action="/search" method="get">
         <input class="form-control ml-2" type="search" id="search-box" name="query" placeholder="Search" aria-label="Search">
         <div class="input-group-append">
-          <button class="btn btn-outline-primary ml-2" type="submit" value="search">Search</button>
+          <button class="btn btn-outline-light ml-2" type="submit" value="search">Search</button>
         </div>
-      </form>
+      </form> -->
 
     </div>
   </div>
 </nav>
 
   <!-- Page Content -->
-<header class="jumbotron rounded-0" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease">
+<header id="hero" class="cover bg-dark text-light">
   <div class="container">
-    <h1 class="display-3">Hello, world!</h1>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.</p>
-    <a href="#" class="btn btn-primary btn-lg">Call to action!</a>
+    <div class="row">
+      <div class="col-md" data-aos="fade-right" data-aos-delay="1000">
+        <h1 class="display-4 text-gradient-blue animate pulse">Walk of Shame</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button class="btn-gradient-blue" href="#">Learn More</button>
+      </div>
+      <div class="col-md">
+      </div>
+    </div>
   </div>
 </header>
 
-<div class="container" data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" data-aos-easing="ease">
-  <div id="accordion">
+  <!-- Social Icons -->
+<section class="bg-gradient-blue" data-aos="fade-up" data-aos-delay="1250">
+  <div class="container">
+    <div class="row">
 
-    <div class="card">
-      <div class="card-header" id="headingOne">
-        <h5 class="mb-0">
-          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Collapsible Group Item #1
-          </button>
-        </h5>
+      <div class="col"></div>
+
+      <div class="col-6 p-5 my-5">
+        <ul class="icons" style="padding-left:0;">
+          <li><i class="fa fa-facebook"></i></li>
+          <li><i class="fa fa-twitter"></i></li>
+          <li><i class="fa fa-youtube"></i></li>
+        </ul>
       </div>
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-        <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
-      </div>
+
+      <div class="col"></div>
+
     </div>
-
-    <div class="card">
-      <div class="card-header" id="headingTwo">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            Collapsible Group Item #2
-          </button>
-        </h5>
-      </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-        <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="card-header" id="headingThree">
-        <h5 class="mb-0">
-          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Collapsible Group Item #3
-          </button>
-        </h5>
-      </div>
-      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-        <div class="card-body">
-          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-        </div>
-      </div>
-    </div>
-
   </div>
-</div>
+</section>
 
   <!-- Footer -->
 <footer class="footer bg-dark">
@@ -132,7 +118,11 @@
 <!-- Animat On Scroll JS -->
 <script src="/src/aos/aos.js"></script>
 <script>
-  AOS.init();
+  AOS.init({
+    once: true,
+    delay: 200,
+    duration: 750
+  });
 </script>
 
 </body>

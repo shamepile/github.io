@@ -13,5 +13,9 @@
 <!-- Animat On Scroll JS -->
 <script src="{{ "/src/aos/aos.js" | prepend: site.baseurl }}"></script>
 <script>
-  AOS.init();
+  AOS.init({
+    once: true,
+    delay: 200,
+    duration: 750
+  });
 </script>

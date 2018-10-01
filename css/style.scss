@@ -1,18 +1,32 @@
 ---
 ---
-
-// Dropdown on hover
-.dropdown:hover > .dropdown-menu {
-  display: block;
+// Custom
+* {
+  font-family: 'Lato', sans-serif;
 }
-
+.cover {
+  height:75vh;
+  .container, .container-fluid {
+    position: absolute;
+    top: 40%; left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}
+// Animate CSS
+#hero h1 {
+  font-weight: 300;
+  animation-duration: 15s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
 // Sticky footer styles DO NOT EDIT
 html {
   position: relative;
   min-height: 100%;
 }
 body {
-  margin-bottom: 100px !important;
+  margin-top: 56px !important;
+  margin-bottom: 60px !important;
 }
 .footer {
   position: absolute;
@@ -21,8 +35,7 @@ body {
   height: 60px;
   line-height: 60px;
 }
-
-// Your variable overrides
+// Bootstrap overrides
 $theme-colors: (
   "primary":    #007bff,
   "secondary":  #6c757d,
@@ -31,8 +44,11 @@ $theme-colors: (
   "warning":    #ffc107,
   "danger":     #dc3545,
   "light":      #f8f9fa,
-  "dark":       #343a40
+  "dark":       #14191e
 );
-
-// Bootstrap and its default variables
+// Dropdown on hover
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+// Bootstrap
 @import "bootstrap";

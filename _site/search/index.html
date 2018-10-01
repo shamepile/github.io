@@ -6,14 +6,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- CSS -->
+<link rel="stylesheet" href="/css/gradients.css">
 <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/src/animateCSS/animate.min.css">
 <link rel="stylesheet" href="/src/aos/aos.css" >
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="/">Navbar</a>
+<body class="bg-dark text-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container" data-aos="fade-down">
+    <img src="/img/global/logo.png" alt="" style="max-height:40px; max-width:auto;">
+    <a class="navbar-brand pl-3" href="/">The Shame Pile</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -21,12 +28,15 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item ">
-          <a class="nav-link" href="/features">Features</a>
+          <a class="nav-link" href="/videos">Videos</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="/podcast">Podcast</a>
         </li>
         <li class="nav-item ">
           <a class="nav-link" href="/blog">Blog</a>
         </li>
-        <li class="nav-item dropdown ">
+        <!-- <li class="nav-item dropdown ">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Resources
           </a>
@@ -36,15 +46,15 @@
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
-        </li>
+        </li> -->
       </ul>
 
-      <form class="form-inline my-0" action="/search" method="get">
+      <!-- <form class="form-inline my-0" action="/search" method="get">
         <input class="form-control ml-2" type="search" id="search-box" name="query" placeholder="Search" aria-label="Search">
         <div class="input-group-append">
-          <button class="btn btn-outline-primary ml-2" type="submit" value="search">Search</button>
+          <button class="btn btn-outline-light ml-2" type="submit" value="search">Search</button>
         </div>
-      </form>
+      </form> -->
 
     </div>
   </div>
@@ -103,11 +113,19 @@
        "url": "/work/"
     },
    
+     "css-gradients-css": {
+       "title": "",
+       "author": "",
+       "category": "",
+       "content": ".bg-gradient-yellow{background:-webkit-linear-gradient(45deg, #FBAB7E, #F7CE68);background:linear-gradient(45deg, #FBAB7E, #F7CE68);background-size:200% 100%;-webkit-animation:animGrt 30s ease infinite;-moz-animation:animGrt 30s ease infinite;animation:animGrt 30s ease infinite}.text-gradient-yellow{background:-webkit-linear-gradient(45deg, #FBAB7E 10%, #F7CE68 90%);color:#ff6364;-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:inline-block}.btn-gradient-yellow{-webkit-appearance:none;border:0;outline:0;cursor:pointer;position:relative;background:linear-gradient(45deg, #FBAB7E 10%, #F7CE68 90%);background-size:200% 100%;padding:0.6rem 1.25rem;margin:0.6rem 0;color:white;border-radius:100px;transition:.3s}.btn-gradient-yellow:hover{animation:button 3s linear infinite}.bg-gradient-blue{background:-webkit-linear-gradient(45deg, #E040FB, #00BCD4);background:linear-gradient(45deg, #E040FB, #00BCD4);background-size:200% 100%;-webkit-animation:animGrt 30s ease infinite;-moz-animation:animGrt 30s ease infinite;animation:animGrt 30s ease infinite}.text-gradient-blue{background:-webkit-linear-gradient(45deg, #E040FB 10%, #00BCD4 90%);color:#ff6364;-webkit-background-clip:text;-webkit-text-fill-color:transparent;display:inline-block}.btn-gradient-blue{-webkit-appearance:none;border:0;outline:0;cursor:pointer;position:relative;background:linear-gradient(45deg, #E040FB 10%, #00BCD4 90%);background-size:200% 100%;padding:0.6rem 1.25rem;margin:0.6rem 0;color:white;border-radius:100px;transition:.3s}.btn-gradient-blue:hover{animation:button 3s linear infinite}.icons{text-align:center}.icons li{display:inline-block;margin:0 4px;padding-bottom:.5rem}.icons i{font-size:24px;height:64px;line-height:64px;text-align:center;width:64px;border-radius:100%;color:#fff;box-shadow:inset 0 0 0 1px #d7d7d7;position:relative;cursor:pointer;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-webkit-transition:all 0.2s ease-out;transition:all 0.2s ease-out}.icons i:hover,.icons i:focus{color:#fff;box-shadow:inset 0 0 0 2px rgba(255,255,255,0.8);-webkit-box-shadow:inset 0 0 0 2px rgba(255,255,255,0.8);-moz-transform:rotate(-5deg) scale(1.1);-ms-transform:rotate(-5deg) scale(1.1);-webkit-transform:rotate(-5deg) scale(1.1);transform:rotate(-5deg) scale(1.1);background-image:-webkit-linear-gradient(left, #2caab3 0%, #2c8cb3 100%);background-image:-moz-linear-gradient(left, #2caab3 0%, #2c8cb3 100%);background-image:-o-linear-gradient(left, #2caab3 0%, #2c8cb3 100%);background-image:linear-gradient(to right, #2caab3 0%, #2c8cb3 100%);background-image:-webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);background-image:-ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%)}.icons .fa-twitter:hover,.icons .fa-twitter:focus{background-image:-webkit-linear-gradient(left, #2caab3 0%, #2c8cb3 100%);background-image:-moz-linear-gradient(left, #2caab3 0%, #2c8cb3 100%);background-image:-o-linear-gradient(left, #2caab3 0%, #2c8cb3 100%);background-image:linear-gradient(to right, #2caab3 0%, #2c8cb3 100%);background-image:-webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);background-image:-ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%)}.icons .fa-facebook:hover,.icons .fa-facebook:focus{background-image:-webkit-linear-gradient(left, #6F5AC3 0%, #34495e 100%);background-image:-moz-linear-gradient(left, #6F5AC3 0%, #34495e 100%);background-image:-o-linear-gradient(left, #6F5AC3 0%, #34495e 100%);background-image:linear-gradient(to right, #6F5AC3 0%, #34495e 100%);background-image:-webkit-linear-gradient(90deg, #6F5AC3 0%, #34495e 100%);background-image:-ms-linear-gradient(90deg, #6F5AC3 0%, #34495e 100%)}.icons .fa-youtube:hover,.icons .fa-youtube:focus{background-image:-webkit-linear-gradient(left, #FF0684 0%, #34495e 100%);background-image:-moz-linear-gradient(left, #FF0684 0%, #e74c3c 100%);background-image:-o-linear-gradient(left, #FF0684 0%, #e74c3c 100%);background-image:linear-gradient(to right, #FF0684 0%, #e74c3c 100%);background-image:-webkit-linear-gradient(90deg, #FF0684 0%, #e74c3c 100%);background-image:-ms-linear-gradient(90deg, #FF0684 0%, #e74c3c 100%)}@-webkit-keyframes animGrt{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}@-moz-keyframes animGrt{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}@keyframes animGrt{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}@keyframes button{0%{background-position:0 0}50%{background-position:100% 0}100%{background-position:0 0}}",
+       "url": "/css/gradients.css"
+    },
+   
      "": {
        "title": "Home",
        "author": "Joshua McSorley",
        "category": "",
-       "content": "      Hello, world!    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat.    Call to action!                                            Collapsible Group Item #1                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.                                                          Collapsible Group Item #2                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.                                                          Collapsible Group Item #3                                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.                    ",
+       "content": "                    Walk of Shame        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.        Learn More                        ",
        "url": "/"
     },
    
@@ -123,7 +141,7 @@
        "title": "",
        "author": "",
        "category": "",
-       "content": "// Dropdown on hover.dropdown:hover > .dropdown-menu {  display: block;}// Sticky footer styles DO NOT EDIThtml {  position: relative;  min-height: 100%;}body {  margin-bottom: 100px !important;}.footer {  position: absolute;  bottom: 0;  width: 100%;  height: 60px;  line-height: 60px;}// Your variable overrides$theme-colors: (  \"primary\":    #007bff,  \"secondary\":  #6c757d,  \"success\":    #28a745,  \"info\":       #17a2b8,  \"warning\":    #ffc107,  \"danger\":     #dc3545,  \"light\":      #f8f9fa,  \"dark\":       #343a40);// Bootstrap and its default variables@import \"bootstrap\";",
+       "content": "// Custom* {  font-family: 'Lato', sans-serif;}.cover {  height:75vh;  .container, .container-fluid {    position: absolute;    top: 40%; left: 50%;    transform: translate(-50%,-50%);  }}// Animate CSS#hero h1 {  font-weight: 300;  animation-duration: 15s;  animation-delay: 2s;  animation-iteration-count: infinite;}// Sticky footer styles DO NOT EDIThtml {  position: relative;  min-height: 100%;}body {  margin-top: 56px !important;  margin-bottom: 60px !important;}.footer {  position: absolute;  bottom: 0;  width: 100%;  height: 60px;  line-height: 60px;}// Bootstrap overrides$theme-colors: (  \"primary\":    #007bff,  \"secondary\":  #6c757d,  \"success\":    #28a745,  \"info\":       #17a2b8,  \"warning\":    #ffc107,  \"danger\":     #dc3545,  \"light\":      #f8f9fa,  \"dark\":       #14191e);// Dropdown on hover.dropdown:hover > .dropdown-menu {  display: block;}// Bootstrap@import \"bootstrap\";",
        "url": "/css/style.css"
     },
    
@@ -237,6 +255,27 @@
 <script src="/src/lunr/lunr.min.js"></script>
 <script src="/js/search.js"></script>
 
+  <!-- Social Icons -->
+<section class="bg-gradient-blue" data-aos="fade-up" data-aos-delay="1250">
+  <div class="container">
+    <div class="row">
+
+      <div class="col"></div>
+
+      <div class="col-6 p-5 my-5">
+        <ul class="icons" style="padding-left:0;">
+          <li><i class="fa fa-facebook"></i></li>
+          <li><i class="fa fa-twitter"></i></li>
+          <li><i class="fa fa-youtube"></i></li>
+        </ul>
+      </div>
+
+      <div class="col"></div>
+
+    </div>
+  </div>
+</section>
+
   <!-- Footer -->
 <footer class="footer bg-dark">
   <div class="container">
@@ -259,7 +298,11 @@
 <!-- Animat On Scroll JS -->
 <script src="/src/aos/aos.js"></script>
 <script>
-  AOS.init();
+  AOS.init({
+    once: true,
+    delay: 200,
+    duration: 750
+  });
 </script>
 
 </body>

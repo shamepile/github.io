@@ -1,0 +1,176 @@
+---
+---
+$gradient-blue-start: #E040FB;
+$gradient-blue-end: #00BCD4;
+$gradient-yellow-start: #FBAB7E;
+$gradient-yellow-end: #F7CE68;
+
+// Yellow
+.bg-gradient-yellow {
+  background: -webkit-linear-gradient(45deg, $gradient-yellow-start, $gradient-yellow-end);
+  background: linear-gradient(45deg, $gradient-yellow-start, $gradient-yellow-end);
+  background-size: 200% 100%;
+  -webkit-animation: animGrt 30s ease infinite; -moz-animation: animGrt 30s ease infinite;
+  animation: animGrt 30s ease infinite;
+}
+
+.text-gradient-yellow {
+    background: -webkit-linear-gradient(45deg, $gradient-yellow-start 10%, $gradient-yellow-end 90%);
+    color: #ff6364;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.btn-gradient-yellow {
+   /* reset */
+   -webkit-appearance: none;
+   border: 0;
+   outline: 0;
+   /* styles */
+   cursor: pointer;
+   position: relative;
+   background: linear-gradient(45deg, $gradient-yellow-start 10%, $gradient-yellow-end 90%);
+   background-size: 200% 100%;
+   padding: 0.6rem 1.25rem;
+   margin: 0.6rem 0;
+   color: white;
+   border-radius: 100px;
+   transition: .3s;
+
+   &:hover {
+      animation: button 3s linear infinite;
+   }
+}
+// Blue
+.bg-gradient-blue {
+  background: -webkit-linear-gradient(45deg, $gradient-blue-start, $gradient-blue-end);
+  background: linear-gradient(45deg, $gradient-blue-start, $gradient-blue-end);
+  background-size: 200% 100%;
+  -webkit-animation: animGrt 30s ease infinite; -moz-animation: animGrt 30s ease infinite;
+  animation: animGrt 30s ease infinite;
+}
+.text-gradient-blue {
+    background: -webkit-linear-gradient(45deg, $gradient-blue-start 10%, $gradient-blue-end 90%);
+    color: #ff6364;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.btn-gradient-blue {
+   /* reset */
+   -webkit-appearance: none;
+   border: 0;
+   outline: 0;
+   /* styles */
+   cursor: pointer;
+   position: relative;
+   background: linear-gradient(45deg, $gradient-blue-start 10%, $gradient-blue-end 90%);
+   background-size: 200% 100%;
+   padding: 0.6rem 1.25rem;
+   margin: 0.6rem 0;
+   color: white;
+   border-radius: 100px;
+   transition: .3s;
+
+   &:hover {
+      animation: button 3s linear infinite;
+   }
+}
+
+// Social icons
+.icons {
+  text-align:center;
+}
+.icons li {
+  display:inline-block;
+  margin: 0 4px;
+  padding-bottom: .5rem;
+}
+.icons i  {
+    font-size: 24px;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    width: 64px;
+    border-radius: 100%;
+    color:#fff;
+    box-shadow: inset 0 0 0 1px #d7d7d7;
+    position: relative;
+    cursor: pointer;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+.icons i:hover, .icons i:focus {
+  color: #fff;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.8);
+  -webkit-box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.8);
+  -moz-transform: rotate(-5deg) scale(1.1);
+    -ms-transform: rotate(-5deg) scale(1.1);
+    -webkit-transform: rotate(-5deg) scale(1.1);
+    transform: rotate(-5deg) scale(1.1);
+  /*fallback*/
+  background-image: -webkit-linear-gradient(left, #2caab3 0%, #2c8cb3 100%);
+  background-image: -moz-linear-gradient(left, #2caab3 0%, #2c8cb3 100%);
+  background-image: -o-linear-gradient(left, #2caab3 0%, #2c8cb3 100%);
+  background-image: linear-gradient(to right, #2caab3 0%, #2c8cb3 100%);
+  background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+  background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+}
+.icons .fa-twitter:hover, .icons .fa-twitter:focus {
+  background-image: -webkit-linear-gradient(left, #2caab3 0%, #2c8cb3 100%);
+  background-image: -moz-linear-gradient(left, #2caab3 0%, #2c8cb3 100%);
+  background-image: -o-linear-gradient(left, #2caab3 0%, #2c8cb3 100%);
+  background-image: linear-gradient(to right, #2caab3 0%, #2c8cb3 100%);
+  background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+  background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+}
+.icons .fa-facebook:hover, .icons .fa-facebook:focus {
+  background-image: -webkit-linear-gradient(left, #6F5AC3  0%, #34495e 100%);
+  background-image: -moz-linear-gradient(left, #6F5AC3  0%, #34495e 100%);
+  background-image: -o-linear-gradient(left, #6F5AC3  0%, #34495e 100%);
+  background-image: linear-gradient(to right, #6F5AC3  0%, #34495e 100%);
+  background-image: -webkit-linear-gradient(90deg, #6F5AC3  0%, #34495e 100%);
+  background-image: -ms-linear-gradient(90deg, #6F5AC3  0%, #34495e 100%);
+}
+.icons .fa-youtube:hover, .icons .fa-youtube:focus {
+  background-image: -webkit-linear-gradient(left, #FF0684 0%, #34495e 100%);
+  background-image: -moz-linear-gradient(left, #FF0684 0%, #e74c3c 100%);
+  background-image: -o-linear-gradient(left, #FF0684  0%, #e74c3c 100%);
+  background-image: linear-gradient(to right, #FF0684  0%, #e74c3c 100%);
+  background-image: -webkit-linear-gradient(90deg, #FF0684 0%, #e74c3c  100%);
+  background-image: -ms-linear-gradient(90deg, #FF0684 0%, #e74c3c 100%);
+}
+
+// Animations
+@-webkit-keyframes animGrt {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes animGrt {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes animGrt {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes button {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
