@@ -2,15 +2,17 @@
 layout: post
 
 title: "Best local co-op games to buy before Feb 11"
-subtitle: "Find out if these games are good enough for you and your friends before spending your cold hard cash."
+#subtitle: "Find out if these games are good enough for you and your friends before spending your cold hard cash."
 author: CounterLife
 category: blog
 
 img:
-  src: /img/blog/2019-02-10-best-local-co-op-games-to-buy-before-february-11-2019/chinese-new-year.jpg
-  alt: A random image from unsplash
+  src: /img/blog/2019-02-06-best-local-co-op-games-to-buy-before-february-11-2019/chinese-new-year.jpg
+  alt: chinese lamp with text on it
 ---
-Find out if these games are good enough for you and your friends before spending your cold hard cash. As you go through this blog, you'll notice a trend in my game selection. For most of this collection (with a few exceptions), I've pulled together a list of games with a low cost to high replayability ratio. This was done with the intention of maximizing enjoyment for you and your friends while keeping your money where it belongs, in your wallet. That's why I leaned towards games that are procedurally generated with some sort of progression system and a timeless artstyle for almost infinite replayability.
+Find out if these games are good enough for you and your friends before spending your cold hard cash. As you go through this blog, you'll notice a trend in my game selection. For most of this collection (with a few exceptions), I've pulled together a list of games with a low cost to high replayability ratio.
+
+This was done with the intention of maximizing enjoyment for you and your friends while keeping your money where it belongs, in your wallet. That's why I leaned towards games that are procedurally generated with some sort of progression system and a timeless artstyle for almost infinite replayability.
 <div class="mb-5"></div>
 
 ## Crawl

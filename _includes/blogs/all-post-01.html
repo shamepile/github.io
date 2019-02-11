@@ -7,8 +7,9 @@
 
       <article class="post-preview pb-5" data-aos="zoom-in">
         <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-          <div class="card text-white rounded-0 mb-3 border-0">
-            <img class="img-fluid" src="{{ post.img.src }}" alt="{{ post.img.alt }}">
+
+          <div class="card text-white mb-3 border-0">
+            <img class="img-fluid rounded" src="{{ post.img.src }}" alt="{{ post.img.alt }}">
             <div class="card-img-overlay">
               <p class="post-meta">
                 Posted by
@@ -22,6 +23,7 @@
               </p>
             </div>
           </div>
+
           <h2 class="post-title text-white">{{ post.title }}</h2>
         </a>
         {% if post.subtitle %}
