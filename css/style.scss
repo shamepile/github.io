@@ -65,5 +65,7 @@ $theme-colors: (
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
-// Bootstrap
-@import "bootstrap";
+
+// Boostrap
+@import "bootstrap4/bootstrap";
+@import "theshamepile/theshamepile";

@@ -1,0 +1,25 @@
+{
+  "name": "theshamepile.com",
+  "version": "1.0.0",
+  "description": "![bootstrap-jekyll logo](/img/global/logo.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shamepile/github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamepile/github.io/issues"
+  },
+  "homepage": "https://github.com/shamepile/github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.7"
+  }
+}

@@ -8,13 +8,13 @@ layout: default
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="post-heading">
+          <h1 class="display-4">{{ page.title }}</h1>
           <span class="meta">
             Posted by
-            <a href="#">{{ page.author }}</a>
+            <a class="text-white" href="#">{{ page.author }}</a>
             on {{ page.date | date: '%B %d, %Y' }} &middot; {% include modules/read_time.html
             content=page.content %}
           </span>
-          <h1 class="display-4">{{ page.title }}</h1>
         </div>
       </div>
     </div>
