@@ -12,10 +12,6 @@ img:
 ---
 ## AND SO OUR HERO HAS A JOB
 
-<img src="/img/blog/2019-02-11-dragon-quest-builder-the-unpaid-hero/1.jpg" class="img-fluid" alt="Responsive image">
-
-<img src="/img/blog/2019-02-11-dragon-quest-builder-the-unpaid-hero/2.jpg" class="img-fluid" alt="Responsive image">
-
 <img src="/img/blog/2019-02-11-dragon-quest-builder-the-unpaid-hero/3.jpg" class="img-fluid" alt="Responsive image">
 
 Like many other premises of lore, Dragon Quest Builder wakes you from a deep slumber, only to give you immense responsibility. It's like being on disability for six months and waking up the next morning to a surprise job at a corporate office. Except, corporate won't pay you. They need your creative talents, but would rather put you through an unpaid internship because it's much easier for them to ask you to do things than put you on payroll. But, don't fear, it's for experience and the corporation... The WORLD... needs you.
