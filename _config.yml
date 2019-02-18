@@ -1,8 +1,10 @@
-# JEKYLL FEATURES
+# JEKYLL SETTINGS
+# ------------------------------------------------------------------------------
 baseurl: "" # used for the navigation (keep blank)
 exclude:
   - README.md
   - LICENSE.md
+  - html
   # - elements.html
 
 plugins:
@@ -15,18 +17,8 @@ sass:
     - _sass
     - node_modules
 
-# ------------------------------
-
-# CUSTOM SETTINGS
-email: info@default.io
-phone: (123) 456-7890
-
-facebook: https://www.facebook.com/
-twitter: https://twitter.com/
-instagram: https://www.instagram.com/
-github: https://github.com/
-
 # SITEMAP PLUGIN SETTINGS
+# ------------------------------------------------------------------------------
 defaults:
   -
     scope:
@@ -35,9 +27,15 @@ defaults:
       sitemap:         false
 
 # SEO PLUGIN SETTINGS
+# ------------------------------------------------------------------------------
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /img/global/default-og-image.jpg
 # url: default.url.com
 logo:
-image:
+image: /img/global/default-og-image.jpg
 title:
 description:
 author:
