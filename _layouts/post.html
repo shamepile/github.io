@@ -32,14 +32,16 @@ layout: default
       <div class="clearfix pb-5">
 
         {% if page.previous.url %}
-        <a class="btn btn-light float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
-          data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
-            Post</span></a>
+        <a class="btn btn-outline-light float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
+          data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">
+          &larr; Previous<span class="d-none d-md-inline"> Post</span>
+        </a>
         {% endif %}
         {% if page.next.url %}
-        <a class="btn btn-light float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
-          data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
-            Post</span> &rarr;</a>
+        <a class="btn btn-outline-light float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
+          data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">
+          Next<span class="d-none d-md-inline"> Post</span> &rarr;
+        </a>
         {% endif %}
 
       </div>
